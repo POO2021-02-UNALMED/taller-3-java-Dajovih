@@ -12,6 +12,7 @@ public class TV {
 	public TV(Marca e_marca,boolean e_estado) {
 		marca=e_marca;
 		estado=e_estado;
+		numTV++;
 	}
 	
 	public void setMarca(Marca n_marca) {
