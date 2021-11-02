@@ -59,10 +59,6 @@ public class TV {
 		return canal;
 	}
 	
-	public int getNumTV() {
-		return numTV;
-	}
-	
 	public void turnOn() {
 		estado=true;
 	}
@@ -119,6 +115,9 @@ public class TV {
 		numTV=n_num;
 	}
 	
+	public static int getNumTV() {
+		return numTV;
+	}
 	
 	
 	
