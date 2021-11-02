@@ -114,8 +114,8 @@ public class TV {
 		}
 	}
 	
-	public static void setNumTV() {
-		numTV++;
+	public static void setNumTV(int n_num) {
+		numTV=n_num;
 	}
 	
 	
