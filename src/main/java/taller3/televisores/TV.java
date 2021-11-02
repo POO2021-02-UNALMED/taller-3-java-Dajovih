@@ -28,13 +28,13 @@ public class TV {
 	}
 	
 	public void setVolumen(int n_volumen) {
-		if((estado==true) && (n_volumen>0 && n_volumen<7)) {
+		if((estado==true) && (n_volumen>=0 && n_volumen<=7)) {
 			volumen=n_volumen;
 		}
 	}
 	
 	public void setCanal(int n_canal) {
-		if ((estado==true) && (n_canal>1 && n_canal<120)) {
+		if ((estado==true) && (n_canal>=1 && n_canal<=120)) {
 			canal=n_canal;
 		}
 	}
